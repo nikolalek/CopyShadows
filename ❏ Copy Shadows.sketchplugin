@@ -1,0 +1,17 @@
+// Copy Shadows (alt →)
+(function() {
+  for(var i=0; i < [selection length]; i++){
+    var s = selection[i]
+    var copy = [s duplicate]
+    var frame = [copy frame]
+
+    [frame setX:([frame x] + 0.5)]
+    [frame setY:([frame y] + 0.5)]
+
+    if (i==0) {
+      [copy select:true byExpandingSelection:false]
+    } else {
+      [copy select:true byExpandingSelection:true]
+    }
+  }
+}())
