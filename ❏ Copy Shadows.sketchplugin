@@ -1,4 +1,4 @@
-// Copy Shadows (alt →)
+// Copy Shadows (ctrl + shift + →)
 (function() {
   for(var i=0; i < [selection length]; i++){
     var s = selection[i]
